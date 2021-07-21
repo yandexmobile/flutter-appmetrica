@@ -1,0 +1,34 @@
+PODS:
+  - Flutter (1.0.0)
+  - metrica_plugin (0.0.1):
+    - Flutter
+    - YandexMobileMetrica/Dynamic (= 3.16.0)
+  - YandexMobileMetrica/Dynamic (3.16.0):
+    - YandexMobileMetrica/Dynamic/Core (= 3.16.0)
+    - YandexMobileMetrica/Dynamic/Crashes (= 3.16.0)
+  - YandexMobileMetrica/Dynamic/Core (3.16.0)
+  - YandexMobileMetrica/Dynamic/Crashes (3.16.0):
+    - YandexMobileMetrica/Dynamic/Core
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - metrica_plugin (from `.symlinks/plugins/metrica_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - YandexMobileMetrica
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  metrica_plugin:
+    :path: ".symlinks/plugins/metrica_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  metrica_plugin: 4b5040be6fb112ce4241460d786950a9cc7b8429
+  YandexMobileMetrica: 2ab55883ea552a4c4ea4516a3353ca0577a747cc
+
+PODFILE CHECKSUM: be2f97a2828498d76b9fba548f13216a29db1408
+
+COCOAPODS: 1.10.0
