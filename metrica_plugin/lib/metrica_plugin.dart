@@ -10,8 +10,10 @@ class MetricaPlugin {
     await _channel.invokeMethod("activate", {"apiKey": apiKey});
   }
 
-  static Future<void> reportEvent(String name,
-      {Map<String, String>? attributes}) async {
+  static Future<void> reportEvent(
+    String name, {
+    Map<String, String>? attributes,
+  }) async {
     await _channel
         .invokeMethod("reportEvent", {"name": name, "attributes": attributes});
   }
